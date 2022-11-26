@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkvue_router_demo"]=self["webpackChunkvue_router_demo"]||[]).push([[950],{1950:function(t,e,s){s.r(e),s.d(e,{default:function(){return p}});var n=function(){var t=this,e=t._self._c;return t.post?e("div",[e("h3",[t._v(t._s(t.post.title))]),e("div",{domProps:{innerHTML:t._s(t.post.content)}})]):t._e()},o=[],r={data(){return{post:null}},async created(){const{postId:t}=this.$route.params,e=await this.$http.get(`./topic/${t}`);this.post=e.data}},u=r,a=s(1001),i=(0,a.Z)(u,n,o,!1,null,null,null),p=i.exports}}]);
+//# sourceMappingURL=950.94b0d644.js.map
